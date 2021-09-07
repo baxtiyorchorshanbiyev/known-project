@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-family: Muli, sans-serif;
+}
+.container{
+    display: flex;
+    width: 90%;
+    margin: 0 auto  ;
+    margin-top: 100px;
+}
+.box_content{
+    width: 45%;
+    margin: 0 auto;
+}
+.box_1{
+    display: flex;
+    align-items: center;
+}
+.box_1{
+    margin-top: 7%;
+}
+.box h1{
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+.iconka_teks {
+    padding-left:20px;
+    line-height: 30px;
+    align-items: center;
+}
+.iconka_teks h3{
+    font-size: 25px;
+}
+.iconka_teks p{
+    font-size: 20px;
+}
+.box_2_content{
+    width: 45%;
+    margin: 0 auto;
+}
+.doira{
+    box-shadow: 0 0 20px silver;
+    height: 600px;
+    width: 75%;
+    background-color: #252020;
+    border-radius: 50%;
+    transition: .6s ;
+}
+.doira:hover{
+    background: #29ca8e;
+    transition: .6s ;
+    text-shadow: 0 0 9px #333;
+} 
+.doira_2{
+    text-align: center;
+}
+.input_1{
+    flex-wrap: wrap;
+}
+.iconka{
+    color: white;
+    background-color:#29ca8e;
+}
+.doira_2{
+    padding-top: 120px;
+}
+.doira_2 h1{
+    color: white;
+}
+.input_1 input{
+    outline: none;
+    /* padding-bottom:15px; */
+    border: none;
+    border-bottom: 1px solid silver;
+    margin-bottom: 30px;
+    width: 70%;
+    color: white;
+    font-size: 16px;
+    background: transparent;
+    height: 60px;
+}
+.input_1 input::placeholder{
+    
+    color: white;
+    font-size: 18px;
+}
+.iconka{
+    box-shadow: 0 0 10px #333;
+    cursor: pointer;
+    transition: .4s;
+    border-radius: 8px;
+}
+.iconka:hover{
+    box-shadow: 0 0 10px #29ca8e;
+    transition: .7s;
+    transform:rotate(360deg);
+    color: #29ca8e;
+    background: #333;
+}
+.iconka  i{
+    padding: 25px;
+}
+.doira_2 h1{
+    padding-bottom: 10%;
+}
+.otpravit a{
+    background-color: white;
+    color: black;
+    font-size:  20px;
+    padding: 15px 25px;
+    border-radius: 32px;
+    text-decoration: none;
+    text-align: center;
+    transition: .5s;
+}
+.otpravit a:hover{
+    background-color: rgb(162, 80, 240);
+    color: white;
+    transition: .4s;
+}
