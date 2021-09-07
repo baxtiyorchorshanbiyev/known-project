@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hedr Page</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./boxicons-master/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://use.typekit.net/zzz0noc.css">
+    <link rel="stylesheet" href="hedr.css">
+</head>
+
+<body>
+    <div id="hedrpage">
+        <div class="navbar">
+            <div class="container">
+                <h1>Known</h1>
+                <ul>
+                    <li><a href="hedrpage.html">Home</a></li>
+                    <li><a href="#">Ebout</a></li>
+                    <li><a href="#">Our Teachers</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Rewiews</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="ikonbox">
+                    <i class='bx bxs-phone bx-spin' style='color:#ffffff'></i>
+                    <p>+99893 409 13 13</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide bg1">
+                    <div class="container">
+                        <div class="textcontent">
+                            <h1>Start your journey with our practical courses</h1>
+                            <br>
+                            <h3>Our online courses are built in partnership with technology leaders and are designed to
+                                meet industry demands.</h3>
+                            <button>Take a course</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide bg2">
+                    <div class="container">
+                        <div class="textcontent">
+                            <h1>Start your journey with our practical courses</h1>
+                            <br>
+                            <h3>Our online courses are built in partnership with technology leaders and are designed to
+                                meet industry demands.</h3>
+                            <button>Take a course</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide bg3">
+                    <div class="container">
+                        <div class="textcontent">
+                            <h1>Start your journey with our practical courses</h1>
+                            <br>
+                            <h3>Our online courses are built in partnership with technology leaders and are designed to
+                                meet industry demands.</h3>
+                            <button>Take a course</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="card-container">
+            <div class="card">
+                <h1>01</h1>
+                <br>
+                <br>
+                <h2>Trending Courses</h2>
+                <br>
+                <p>Known is free education HTML Bootstrap Template. You can download and use this for your website.</p>
+            </div>
+            <div class="card">
+                <h1>02</h1>
+                <br>
+                <br>
+                <h2>Trending Courses</h2>
+                <br>
+                <p>Known is free education HTML Bootstrap Template. You can download and use this for your website.</p>
+            </div>
+            <div class="card">
+                <h1>03</h1>
+                <br>
+                <br>
+                <h2>Trending Courses</h2>
+                <br>
+                <p>Known is free education HTML Bootstrap Template. You can download and use this for your website.</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
