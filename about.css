@@ -46,8 +46,8 @@ html{
 }
 .doira{
     box-shadow: 0 0 20px silver;
-    height: 600px;
-    width: 75%;
+    height: 500px;
+    width: 85%;
     background-color: #252020;
     border-radius: 50%;
     transition: .6s ;
@@ -74,21 +74,22 @@ html{
     color: white;
 }
 .input_1 input{
+    padding-left: 10px;
     outline: none;
     /* padding-bottom:15px; */
     border: none;
     border-bottom: 1px solid silver;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     width: 70%;
     color: white;
     font-size: 16px;
     background: transparent;
-    height: 60px;
+    height: 40px;
 }
 .input_1 input::placeholder{
-    
+    padding-left: 10px;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
 }
 .iconka{
     box-shadow: 0 0 10px #333;
@@ -112,12 +113,15 @@ html{
 .otpravit a{
     background-color: white;
     color: black;
-    font-size:  20px;
-    padding: 15px 25px;
+    font-size:  16px;
+    padding: 12px 20px;
     border-radius: 32px;
     text-decoration: none;
     text-align: center;
     transition: .5s;
+}
+.otpravit{
+    padding-top: 15px;
 }
 .otpravit a:hover{
     background-color: rgb(162, 80, 240);
