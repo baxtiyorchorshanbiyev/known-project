@@ -1,23 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    font-family: Muli, sans-serif;
-}
-body{
-    background-color: beige;
+#courses{
+    width: 100%;
+    padding: 100px 0 80px 0;
 }
 .container{
-    width: 80%;
-    height: auto;
+    width: 85%;
     margin: auto;
 }
-.carusel{
-    width: 80%;
-    height: auto;
-    margin: 100px auto auto auto;
+.swiper-slide{
+    background-color: aqua;
 }
 .popular{
     text-align: center;
@@ -76,8 +66,9 @@ body{
     margin-top: 15px;
 }
 .autor{
-    width: 80px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
 }
 .mark{
     margin-top: 50px;
@@ -130,4 +121,32 @@ body{
     color: #fff;
     border: 1px solid blue;
     transition: 0.7s;
+}
+.swiper-button-next{
+    position: absolute !important;
+    right: 47%;
+    padding: 12px 15px ;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px !important;
+    background-color: rgb(206, 202, 202);
+}
+.swiper-button-next:hover{
+    background-color: rgb(129, 128, 127);
+}
+.swiper-button-prev{
+    
+    position: absolute !important;
+    left: 47%;
+    padding: 12px 15px ;
+    border-radius: 5px;
+    font-size: 10px !important;
+    background-color: rgb(206, 202, 202);
+    color: white;
+}
+.swiper-button-prev:hover{
+    background-color: rgb(129, 128, 127);
+}
+.swiper-slide{
+    background-color: whitesmoke;
 }

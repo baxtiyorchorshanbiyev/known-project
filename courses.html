@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>courses</title>
+    <link rel="stylesheet" href="./swiper.css">
+    <link rel="stylesheet" href="./courses.css">
+
+</head>
+
+<body>
+    <div id="courses">
+        <div class="container">
+            <div class="popular">
+                <h1>Popular Courses</h1>
+                <p>Upgrade your skills with newest courses</p>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div>
+                        <img src="./rasms/courses-image1.jpg" alt="rasm">
+                    </div>
+                    <div class="text">
+                        <h1>Social Media Management</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="mark">
+                        <div class="person">
+                            <div class="autor">
+                                <img src="./rasms/author-image1.jpg" alt="rasm">
+                            </div>
+                            <div class="h4">
+                                <h4>Mark Wilson</h4>
+                            </div>
+                        </div>
+                        <div class="btn_a">
+                            <button>Free</button>
+                        </div>
+                    </div>
+                </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <img src="./rasms/courses-image2.jpg" alt="rasm">
+                        </div>
+                        <div class="text">
+                            <h1>Social Media Management</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="mark">
+                            <div class="person">
+                                <div class="autor">
+                                    <img src="./rasms/author-image2.jpg" alt="rasm">
+                                </div>
+                                <div class="h4">
+                                    <h4>Mery Jane</h4>
+                                </div>
+                            </div>
+                            <div class="btn_b">
+                                <button>USD 25</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <img src="./rasms/courses-image3.jpg" alt="rasm">
+                        </div>
+                        <div class="text">
+                            <h1>Social Media Management</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="mark">
+                            <div class="person">
+                                <div class="autor">
+                                    <img src="./rasms/author-image3.jpg" alt="rasm">
+                                </div>
+                                <div class="h4">
+                                    <h4>Shoury</h4>
+                                </div>
+                            </div>
+                            <div class="btn_a">
+                                <button>Free</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <img src="./rasms/courses-image5.jpg" alt="rasm">
+                        </div>
+                        <div class="text">
+                            <h1>Social Media Management</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="mark">
+                            <div class="person">
+                                <div class="autor">
+                                    <img src="./rasms/author-image1.jpg" alt="rasm">
+                                </div>
+                                <div class="h4">
+                                    <h4>Mark Wilson</h4>
+                                </div>
+                            </div>
+                            <div class="btn_b">
+                                <button>USD 45</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <img src="./rasms/courses-image1.jpg" alt="rasm">
+                        </div>
+                        <div class="text">
+                            <h1>Social Media Management</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="mark">
+                            <div class="person">
+                                <div class="autor">
+                                    <img src="./rasms/author-image2.jpg" alt="rasm">
+                                </div>
+                                <div class="h4">
+                                    <h4>Mery Jane</h4>
+                                </div>
+                            </div>
+                            <div class="btn_a">
+                                <button>Free</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <img src="./rasms/courses-image3.jpg" alt="rasm">
+                        </div>
+                        <div class="text">
+                            <h1>Social Media Management</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="mark">
+                            <div class="person">
+                                <div class="autor">
+                                    <img src="./rasms/author-image3.jpg" alt="rasm">
+                                </div>
+                                <div class="h4">
+                                    <h4>Shoury</h4>
+                                </div>
+                            </div>
+                            <div class="btn_b">
+                                <button>USD 80</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+            </div>
+        </div>
+    </div>
+    <script src="swiper.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 1,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
