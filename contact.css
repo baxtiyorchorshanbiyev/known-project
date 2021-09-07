@@ -1,0 +1,90 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: Muli, sans-serif;
+}
+
+#contact {
+  width: 100%;
+  height: 100vh;
+  background-color: #3f51b5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact .container {
+  width: 85%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact .container .inputs {
+  width: 48%;
+  height: 100%;
+}
+
+#contact .container .inputs h1 {
+  color: white;
+}
+
+#contact .container .inputs p {
+  color: #f7f7f8;
+}
+
+#contact .container .inputs textarea {
+  padding-top: 15px;
+  padding-left: 20px;
+  width: 100%;
+  height: 160px;
+  border-radius: 10px;
+  border: none;
+}
+
+#contact .container .inputs button {
+  width: 200px;
+  height: 60px;
+  border-radius: 50px;
+  border: none;
+  font-family: Muli, sans-serif;
+}
+
+#contact .container .inputs button:hover {
+  background-color: red;
+}
+
+#contact .container .inputs ≈
+input {
+  width: 100%;
+  height: 55px;
+  padding-left: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+#contact .container .bagraund {
+  width: 48%;
+  height: 500px;
+}
+
+#contact .container .bagraund img {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=contact.css.map */
