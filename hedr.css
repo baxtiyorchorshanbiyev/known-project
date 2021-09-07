@@ -32,6 +32,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 85%;
+  height: 100%;
   margin: auto;
 }
 
@@ -41,7 +42,7 @@
 
 #hedrpage .navbar .container ul {
   width: 50%;
-  height: 100%;
+  height: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -53,30 +54,32 @@
           align-items: center;
 }
 
-#hedrpage .navbar .container ul li a {
+#hedrpage .navbar .container ul li {
   height: 100%;
+  text-align: center;
+  width: 100%;
+}
+
+#hedrpage .navbar .container ul li a {
   color: #111111;
 }
 
-#hedrpage .navbar .container ul li a:hover {
-  padding: 15px 15px;
-  background-color: cyan;
+#hedrpage .navbar .container ul li:hover {
+  background-color: #29ca8e;
   color: black;
-  border-radius: 10%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-#hedrpage .navbar .container ul li a:focus {
-  padding: 15px 15px;
-  background-color: cyan;
+#hedrpage .navbar .container ul li:focus {
+  background-color: #29ca8e;
   color: black;
-  border-radius: 10%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 #hedrpage .navbar .container .ikonbox {
+  padding: 0px 5px;
   width: 17%;
   height: 100%;
   display: -webkit-box;
@@ -98,8 +101,7 @@
 }
 
 #hedrpage .navbar .container .ikonbox:hover {
-  padding: 0px 5px;
-  background-color: cyan;
+  background-color: #29ca8e;
   color: black;
   -webkit-transition: 0.5s;
   transition: 0.5s;
