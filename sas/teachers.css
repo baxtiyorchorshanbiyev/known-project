@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+}
+.box .container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px;
+}
+.box .container .center-word {
+  text-align: center;
+  padding: 50px;
+  font-family: Muli, sans-serif;
+}
+.box .container .center-word h3 {
+  font-weight: 100;
+  color: gray;
+  padding-top: 10px;
+}
+.box .container .big-card {
+  display: flex;
+  justify-content: space-between;
+}
+.box .container .big-card .card {
+  width: 250px;
+  background-color: white;
+  transition: 0.6s;
+}
+.box .container .big-card .card:hover {
+  transition: 0.6s;
+  transform: scale(110%);
+  box-shadow: 0 0 20px #e4d0bf;
+}
+.box .container .big-card .card img {
+  width: 100%;
+  padding-bottom: 10px;
+}
+.box .container .big-card .card h3, .box .container .big-card .card p {
+  padding-left: 30px;
+  font-family: Muli, sans-serif;
+}
+.box .container .big-card .card p {
+  padding-top: 5px;
+}
+.box .container .big-card .card .line {
+  padding-top: 10px;
+  border-bottom: 1px solid #f9f9f9;
+  opacity: 1;
+}
+.box .container .big-card .card .icons {
+  display: flex;
+  width: 20%;
+  font-weight: 700;
+  background-color: white;
+  padding-left: 15px;
+  margin: 10px;
+}
+.box .container .big-card .card .icons i {
+  padding: 20%;
+  transition: 1s;
+}
+.box .container .big-card .card .icons i:hover {
+  background-color: #29ca8e;
+  color: white;
+  border-radius: 50%;
+}/*# sourceMappingURL=teachers.css.map */
