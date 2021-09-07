@@ -56,6 +56,10 @@
   border: none;
 }
 
+#contact .container .inputs textarea {
+  outline: none !important;
+}
+
 #contact .container .inputs button {
   width: 200px;
   height: 60px;
@@ -76,6 +80,10 @@
   padding-left: 20px;
   border-radius: 10px;
   border: none;
+}
+
+#contact .container .inputs input:focus {
+  outline: none !important;
 }
 
 #contact .container .bagraund {
